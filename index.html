@@ -7,6 +7,27 @@
     <title>Rock-Paper-Scissors Game!</title>
   </head>
   <body>
+    <h1>Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+      <button onclick="playGame('rock')">✊</button>
+      <button onclick="playGame('paper')">🖐️</button>
+      <button onclick="playGame('scissor')">✌️</button>
+    </div>
+
+    <div id="playerDisplay">Player's Choice:</div>
+    <div id="computerDisplay">Computer's Choice:</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">
+      Player score:
+      <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">
+      Computer score:
+      <span id="computerScoreDisplay">0</span>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
